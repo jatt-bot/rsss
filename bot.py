@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from telegram import Bot
 
 # === Config ===
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # Replace with your bot token
+BOT_TOKEN = "8191342640:AAG0Y5dyj_Hyoe4Lcg5b4LOyPlukO5Aq2P4"  # Replace with your bot token
 CHANNEL_ID = -1001234567890  # Replace with your Telegram channel ID
 POSTED_FILE = "posted.txt"  # File to store posted URLs
 
