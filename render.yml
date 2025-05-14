@@ -2,7 +2,7 @@ services:
   - type: worker
     name: hdhub4u-rss
     env: docker
-    repo: https://github.com/your-username/hdhub4u-rss-bot  # replace with your actual repo URL
+    repo: https://github.com/codexart-lab/hdhub4u-rss.git  # replace with your actual repo URL
     dockerfilePath: ./Dockerfile
     autoDeploy: true
     branch: main
