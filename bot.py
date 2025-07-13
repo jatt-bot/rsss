@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 from telegram import Bot
 
 # === Config ===
-BOT_TOKEN = "8191342640:AAG0Y5dyj_Hyoe4Lcg5b4LOyPlukO5Aq2P4"  # Replace with your bot token
-CHANNEL_ID = -1002557066772  # Replace with your Telegram channel ID
+BOT_TOKEN = "7975556997:AAEpcnKzScmOnNqX4j1aJVtQ-iDHuF2BcX8"  # Replace with your bot token
+CHANNEL_ID = -1002550488757  # Replace with your Telegram channel ID
 POSTED_FILE = "posted.txt"  # File to store posted URLs
 
 bot = Bot(token=BOT_TOKEN)
@@ -35,7 +35,7 @@ def scrape_hdhub4u(url):
 
 # === Scrape latest posts from home page ===
 def get_latest_posts():
-    url = "https://hdhub4u.football/"
+    url = "https://hdhub4u.family/"
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.text, "html.parser")
